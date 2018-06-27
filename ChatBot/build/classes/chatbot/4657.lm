@@ -1,0 +1,75 @@
+Language model created by QuickLM on Tue Jun 26 13:45:26 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=20
+ngram 3=20
+
+\1-grams:
+-0.9031 </s> -0.3010
+-0.9031 <s> -0.2430
+-1.6021 BROWSER -0.2430
+-1.6021 CLOSE -0.2788
+-1.9031 EXPLORER -0.2430
+-1.9031 GOOGLE -0.2430
+-1.6021 NOTEPAD -0.2430
+-1.0000 OPEN -0.2430
+-1.9031 POWERPOINT -0.2430
+-1.9031 PRIME -0.2430
+-1.9031 WORD -0.2430
+-1.9031 YOUTUBE -0.2430
+
+\2-grams:
+-1.0000 <s> CLOSE 0.0000
+-0.3979 <s> OPEN 0.0000
+-0.3010 BROWSER </s> -0.3010
+-0.6021 CLOSE BROWSER 0.0000
+-0.6021 CLOSE NOTEPAD 0.0000
+-0.3010 EXPLORER </s> -0.3010
+-0.3010 GOOGLE </s> -0.3010
+-0.3010 NOTEPAD </s> -0.3010
+-1.2041 OPEN BROWSER 0.0000
+-1.2041 OPEN EXPLORER 0.0000
+-1.2041 OPEN GOOGLE 0.0000
+-1.2041 OPEN NOTEPAD 0.0000
+-1.2041 OPEN POWERPOINT 0.0000
+-1.2041 OPEN PRIME 0.0000
+-1.2041 OPEN WORD 0.0000
+-1.2041 OPEN YOUTUBE 0.0000
+-0.3010 POWERPOINT </s> -0.3010
+-0.3010 PRIME </s> -0.3010
+-0.3010 WORD </s> -0.3010
+-0.3010 YOUTUBE </s> -0.3010
+
+\3-grams:
+-0.6021 <s> CLOSE BROWSER
+-0.6021 <s> CLOSE NOTEPAD
+-1.2041 <s> OPEN BROWSER
+-1.2041 <s> OPEN EXPLORER
+-1.2041 <s> OPEN GOOGLE
+-1.2041 <s> OPEN NOTEPAD
+-1.2041 <s> OPEN POWERPOINT
+-1.2041 <s> OPEN PRIME
+-1.2041 <s> OPEN WORD
+-1.2041 <s> OPEN YOUTUBE
+-0.3010 CLOSE BROWSER </s>
+-0.3010 CLOSE NOTEPAD </s>
+-0.3010 OPEN BROWSER </s>
+-0.3010 OPEN EXPLORER </s>
+-0.3010 OPEN GOOGLE </s>
+-0.3010 OPEN NOTEPAD </s>
+-0.3010 OPEN POWERPOINT </s>
+-0.3010 OPEN PRIME </s>
+-0.3010 OPEN WORD </s>
+-0.3010 OPEN YOUTUBE </s>
+
+\end\
